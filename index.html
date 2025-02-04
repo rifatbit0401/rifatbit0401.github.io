@@ -3,86 +3,221 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdus Satter - CV</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Abdus Satter - Profile</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        .profile-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .profile-section .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .profile-section .divider {
+            border-top: 1px solid black;
+            margin: 10px 0 20px;
+        }
+        .profile-section .info {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        .objective-section {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .objective-section .heading {
+            font-weight: bold;
+            font-size: 18px;
+            white-space: nowrap;
+        }
+        .objective-section .content {
+            text-align: justify;
+            font-size: 16px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section .heading {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .section ul {
+            list-style-position: outside;
+            padding-left: 120px;
+            margin: 0;
+        }
+        .section ul ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+        .section ul ul li {
+            margin-bottom: 10px;
+        }
+        .education-section {
+            margin-bottom: 40px;
+        }
+        .education-section .heading {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .education-section ul {
+            list-style-type: disc;
+            padding-left: 120px;
+        }
+        .education-section li {
+            margin-bottom: 15px;
+        }
+        .education-section .details {
+            text-align: justify;
+            display: inline-block;
+            max-width: 90%;
+        }
+        .education-section .date {
+            float: right;
+            white-space: nowrap;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Abdus Satter</h1>
-            <p>6550 El Colegio Road, Apt 5220, Goleta, CA 93117</p>
-            <p>📧 <a href="mailto:abdussatter@ucsb.edu">abdussatter@ucsb.edu</a> | <a href="mailto:rifat92iitdu@gmail.com">rifat92iitdu@gmail.com</a></p>
-            <p>📞 +1 805-331-7130</p>
-        </header>
-
-        <section>
-            <h2>Objective</h2>
-            <p>
-                I have always been excited to work with new technologies and explore different fields of Information Technology. 
-                My interests include software security, software development, large-scale software management, big data analysis, and data mining. 
-                I aspire to build my career as a researcher in software security. Currently, I am pursuing a Ph.D. in Computer Science at the University of California, Santa Barbara.
-            </p>
-        </section>
-
-        <section>
-            <h2>Education</h2>
-            <ul>
-                <li><strong>PhD in Computer Science</strong>, University of California, Santa Barbara (2024 - Present)</li>
-                <li><strong>Master of Science in Software Engineering</strong>, University of Dhaka, Bangladesh (2016 - 2017) <br> CGPA: 3.96/4.00</li>
-                <li><strong>Bachelor of Science in Software Engineering</strong>, University of Dhaka, Bangladesh (2012 - 2015) <br> CGPA: 3.99/4.00</li>
-                <li><strong>Higher Secondary Certificate</strong>, Kadam Rasul College, Dhaka, Bangladesh (2010) <br> GPA: 5.00/5.00</li>
-                <li><strong>Secondary School Certificate</strong>, B M Union High School, Dhaka, Bangladesh (2008) <br> GPA: 5.00/5.00</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Experience</h2>
-            <ul>
-                <li><strong>Applied Research Engineer & Machine Learning Expert</strong> at Fox AI Limited (2017 - 2018)</li>
-                <li><strong>Intern Software Developer</strong> at Secure Link Services Ltd. (SELISE) (2015)</li>
-                <li><strong>Teaching Experience:</strong>
-                    <ul>
-                        <li>Lecturer at University of Dhaka (2018 - 2024), teaching Software Security, Software Data Analytics, and more.</li>
-                        <li>Trainer & Coordinator at IIT ACM Club (2014 - 2017).</li>
-                        <li>Instructor at IIT Short Course Training Program (2016 - 2017).</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Technical Skills</h2>
-            <ul>
-                <li><strong>Programming:</strong> C, C++, Java, Python, JavaScript, PHP</li>
-                <li><strong>Web Development:</strong> HTML, CSS, AngularJS, React, Spring, Hibernate</li>
-                <li><strong>Machine Learning:</strong> Keras, TensorFlow, Apache Lucene</li>
-                <li><strong>Big Data:</strong> Apache Hadoop</li>
-                <li><strong>Version Control:</strong> Git, GitHub, GitLab</li>
-                <li><strong>Cloud Computing:</strong> OpenStack</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Research Interests</h2>
-            <ul>
-                <li>Software Security</li>
-                <li>Software Engineering</li>
-                <li>Machine Learning</li>
-                <li>Artificial Intelligence</li>
-                <li>Information Retrieval</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Achievements</h2>
-            <ul>
-                <li>5th in ACM Student Research Competition at International Conference on the Art, Science, and Engineering of Programming, Brussels, Belgium (2017)</li>
-                <li>IIT Academic Excellence Award 2016</li>
-                <li>Champion in “SUST CSE Carnival Web Application Development 2016”</li>
-                <li>Champion in “Code Warriors Challenge 2015”</li>
-                <li>Runner-up in “National Hackathon 2014”</li>
-            </ul>
-        </section>
+    <div class="profile-section">
+        <div class="name">Abdus Satter</div>
+        <div class="divider"></div>
+        <div class="info">
+            6550 El Colegio Road<br>
+            Apt 5220<br>
+            Goleta, CA 93117<br>
+            +1 8053317130<br>
+            abdussatter@ucsb.edu, rifat92iitdu@gmail.com
+        </div>
+    </div>
+    <div class="objective-section">
+        <div class="heading">OBJECTIVE</div>
+        <div class="content"> 
+            I have always been excited to work with new technologies, explore different fields of Information Technology. 
+            I have immense interest in software security, software development, large scale software management, big data 
+            analysis, and data mining. My dream is to build my career as a researcher in software security. Currently, I am 
+            pursuing PhD in Computer Science at the University of California, Santa Barbara.
+        </div>
+    </div>
+    <div class="education-section">
+        <div class="heading">EDUCATION</div>
+        <ul>
+            <li>
+                <div class="details">
+                    <strong>PhD in Computer Science,</strong><br>
+                    University of California Santa Barbara
+                </div>
+                <span class="date">September 2024 - present</span>
+            </li>
+            <li>
+                <div class="details">
+                    <strong>Master of Science in Software Engineering,</strong><br>
+                    Thesis on Code Search for Faster Software Development<br>
+                    Institute of Information Technology<br>
+                    University of Dhaka, Bangladesh<br>
+                    CGPA: 3.96 out of 4.00
+                </div>
+                <span class="date">January 2016 - July 2017</span>
+            </li>
+            <li>
+                <div class="details">
+                    <strong>Bachelor of Science in Software Engineering,</strong><br>
+                    Institute of Information Technology<br>
+                    University of Dhaka, Bangladesh<br>
+                    CGPA: 3.99 out of 4.00
+                </div>
+                <span class="date">January 2012 - December 2015</span>
+            </li>
+            <li>
+                <div class="details">
+                    <strong>Higher Secondary Certificate Examination, Science,</strong><br>
+                    Kadam Rasul College, Dhaka, Bangladesh<br>
+                    GPA: 5.00 out of 5.00
+                </div>
+                <span class="date">2010</span>
+            </li>
+            <li>
+                <div class="details">
+                    <strong>Secondary School Certificate Examination, Science,</strong><br>
+                    B M Union High School, Dhaka, Bangladesh<br>
+                    GPA: 5.00 out of 5.00
+                </div>
+                <span class="date">2008</span>
+            </li>
+        </ul>
+    </div>
+    <!-- <div class="section">
+        <div class="heading">EDUCATION</div>
+        <ul>
+            <li><strong>PhD in Computer Science,</strong> University of California Santa Barbara (September 2024 - Present)</li>
+            <li><strong>Master of Science in Software Engineering,</strong> Thesis on Code Search for Faster Software Development, Institute of Information Technology, University of Dhaka, Bangladesh (CGPA: 3.96 out of 4.00, January 2016 - July 2017)</li>
+            <li><strong>Bachelor of Science in Software Engineering,</strong> Institute of Information Technology, University of Dhaka, Bangladesh (CGPA: 3.99 out of 4.00, January 2012 - December 2015)</li>
+        </ul>
+    </div> -->
+    <div class="section">
+        <div class="heading">RESEARCH PROFILE</div>
+        <ul>
+            <li>Number of Publications: 19+</li>
+            <li>Citations: 100+</li>
+            <li>h-index: 6</li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="heading">EXPERIENCES</div>
+        <ul>
+            <li><strong>Industry Experience:</strong> Applied Research Engineer and Machine Learning Expert for Big Data Analysis at Fox AI Limited (July 2017 - August 2018)</li>
+            <li><strong>Internship:</strong> Worked as an intern software developer at Secure Link Services Ltd. (January 2015 - July 2015)</li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="heading">PROJECTS</div>
+        <ul>
+            <li><strong>Analyzing and Storing Software Data for Quick Data Retrieval:</strong>
+                <ul>
+                    <li><em>Abdus Satter, MG Muntaqeem, Nadia Nahar, and Kazi Sakib.</em> “Retrieving Self-Executable and Functionally Correct Code to Improve Source Code Search.” 24th Asia Pacific Software Engineering Conference (APSEC 2017), Nanjing, China, 2017.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="heading">TECHNICAL SKILLS</div>
+        <ul>
+            <li><strong>Statistical Tools for Data Analysis:</strong> Advanced Microsoft Excel, SPSS, and Libre</li>
+            <li><strong>Big Data Analytical Tools:</strong> Apache Hadoop</li>
+            <li><strong>Database:</strong> MySQL, MSSQL, Oracle 10G Enterprise Edition</li>
+            <li><strong>AI and Machine Learning Tools:</strong> Keras, TensorFlow, Python Anaconda</li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="heading">RESEARCH INTEREST</div>
+        <ul>
+            <li>Software Security</li>
+            <li>Software Engineering</li>
+            <li>Machine Learning</li>
+            <li>Artificial Intelligence</li>
+            <li>Search Engine</li>
+            <li>Information Retrieval</li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="heading">ACHIEVEMENTS</div>
+        <ul>
+            <li>5<sup>th</sup> in ACM Student Research Competition at International Conference on the Art, Science, and Engineering of Programming, Brussels, Belgium, 2017</li>
+            <li>IIT Academic Excellence Award 2016</li>
+            <li>Champion in "SUST CSE Carnival Web Application Development 2016"</li>
+        </ul>
     </div>
 </body>
 </html>
