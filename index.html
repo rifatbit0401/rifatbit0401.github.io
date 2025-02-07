@@ -3,221 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdus Satter - Profile</title>
-    <style>
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;
-            background-color: #f9f9f9;
-        }
-        .profile-section {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .profile-section .name {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .profile-section .divider {
-            border-top: 1px solid black;
-            margin: 10px 0 20px;
-        }
-        .profile-section .info {
-            font-size: 16px;
-            line-height: 1.8;
-        }
-        .objective-section {
-            display: flex;
-            align-items: flex-start;
-            gap: 20px;
-        }
-        .objective-section .heading {
-            font-weight: bold;
-            font-size: 18px;
-            white-space: nowrap;
-        }
-        .objective-section .content {
-            text-align: justify;
-            font-size: 16px;
-        }
-        .section {
-            margin-bottom: 40px;
-        }
-        .section .heading {
-            font-weight: bold;
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-        .section ul {
-            list-style-position: outside;
-            padding-left: 120px;
-            margin: 0;
-        }
-        .section ul ul {
-            list-style-type: disc;
-            padding-left: 20px;
-            margin-top: 5px;
-        }
-        .section ul ul li {
-            margin-bottom: 10px;
-        }
-        .education-section {
-            margin-bottom: 40px;
-        }
-        .education-section .heading {
-            font-weight: bold;
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-        .education-section ul {
-            list-style-type: disc;
-            padding-left: 120px;
-        }
-        .education-section li {
-            margin-bottom: 15px;
-        }
-        .education-section .details {
-            text-align: justify;
-            display: inline-block;
-            max-width: 90%;
-        }
-        .education-section .date {
-            float: right;
-            white-space: nowrap;
-        }
-    </style>
+    <title>Abdus Satter - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="profile-section">
-        <div class="name">Abdus Satter</div>
-        <div class="divider"></div>
-        <div class="info">
-            6550 El Colegio Road<br>
-            Apt 5220<br>
-            Goleta, CA 93117<br>
-            abdussatter@ucsb.edu
-        </div>
-    </div>
-    <div class="objective-section">
-        <div class="heading">OBJECTIVE</div>
-        <div class="content"> 
-            I have always been excited to work with new technologies, explore different fields of Information Technology. 
-            I have immense interest in software security, software development, large scale software management, big data 
-            analysis, and data mining. My dream is to build my career as a researcher in software security. Currently, I am 
-            pursuing PhD in Computer Science at the University of California, Santa Barbara.
-        </div>
-    </div>
-    <div class="education-section">
-        <div class="heading">EDUCATION</div>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <p>1st Year PhD Student | Computer Science | UCSB</p>
+    </header>
+    
+    <nav>
         <ul>
-            <li>
-                <div class="details">
-                    <strong>PhD in Computer Science,</strong><br>
-                    University of California Santa Barbara
-                </div>
-                <span class="date">September 2024 - present</span>
-            </li>
-            <li>
-                <div class="details">
-                    <strong>Master of Science in Software Engineering,</strong><br>
-                    Thesis on Code Search for Faster Software Development<br>
-                    Institute of Information Technology<br>
-                    University of Dhaka, Bangladesh<br>
-                    CGPA: 3.96 out of 4.00
-                </div>
-                <span class="date">January 2016 - July 2017</span>
-            </li>
-            <li>
-                <div class="details">
-                    <strong>Bachelor of Science in Software Engineering,</strong><br>
-                    Institute of Information Technology<br>
-                    University of Dhaka, Bangladesh<br>
-                    CGPA: 3.99 out of 4.00
-                </div>
-                <span class="date">January 2012 - December 2015</span>
-            </li>
-<!--             <li>
-                <div class="details">
-                    <strong>Higher Secondary Certificate Examination, Science,</strong><br>
-                    Kadam Rasul College, Dhaka, Bangladesh<br>
-                    GPA: 5.00 out of 5.00
-                </div>
-                <span class="date">2010</span>
-            </li>
-            <li>
-                <div class="details">
-                    <strong>Secondary School Certificate Examination, Science,</strong><br>
-                    B M Union High School, Dhaka, Bangladesh<br>
-                    GPA: 5.00 out of 5.00
-                </div>
-                <span class="date">2008</span>
-            </li> -->
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#research">Research Interests</a></li>
+            <li><a href="#cv">CV / Resume</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-    </div>
-      <div class="section">
-        <div class="heading">RESEARCH INTEREST</div>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Abdus.jpeg" alt="Abdus Satter" class="profile-pic">
+        <p>I am a 1st-year PhD student in Computer Science at the University of California, Santa Barbara. My research focuses on software security, software engineering, machine learning, and information retrieval.</p>
+    </section>
+    
+    <section id="research">
+        <h2>Research Interests</h2>
         <ul>
             <li>Software Security</li>
             <li>Software Engineering</li>
             <li>Machine Learning</li>
             <li>Artificial Intelligence</li>
-            <li>Search Engine</li>
+            <li>Search Engine Optimization</li>
             <li>Information Retrieval</li>
         </ul>
-    </div>
-    <!-- <div class="section">
-        <div class="heading">EDUCATION</div>
+    </section>
+    
+    <section id="cv">
+        <h2>CV / Resume</h2>
+        <p>You can download my CV here: <a href="Abdus_CV.pdf" target="_blank">Download CV</a></p>
+    </section>
+    
+    <section id="publications">
+        <h2>Publications</h2>
         <ul>
-            <li><strong>PhD in Computer Science,</strong> University of California Santa Barbara (September 2024 - Present)</li>
-            <li><strong>Master of Science in Software Engineering,</strong> Thesis on Code Search for Faster Software Development, Institute of Information Technology, University of Dhaka, Bangladesh (CGPA: 3.96 out of 4.00, January 2016 - July 2017)</li>
-            <li><strong>Bachelor of Science in Software Engineering,</strong> Institute of Information Technology, University of Dhaka, Bangladesh (CGPA: 3.99 out of 4.00, January 2012 - December 2015)</li>
+            <li>Abdus Satter, MG Muntaqeem, Nadia Nahar, and Kazi Sakib. “Retrieving Self-Executable and Functionally Correct Code to Improve Source Code Search.” 24th Asia Pacific Software Engineering Conference (APSEC 2017), Nanjing, China, 2017.</li>
+            <li>Abdus Satter, Nadia Nahar, and Kazi Sakib. “Automatically Identifying Dead Fields in Test Code by Resolving Method Call and Field Dependency.” 5th International Workshop on Quantitative Approaches to Software Quality in conjunction with 24th Asia Pacific Software Engineering Conference (APSEC 2017), Nanjing, China, 2017.</li>
+            <li>Abdus Satter and Kazi Sakib. “A Similarity-Based Method Retrieval Technique to Improve Effectiveness in Code Search”, ACM Student Research Competition at International Conference on the Art, Science, and Engineering of Programming, Brussels, Belgium, 2017.</li>
+            <li>Abdus Satter, and Kazi Sakib. “Improving Recall in Code Search by Indexing Similar Codes under Proper Terms.” 4th International Workshop on Quantitative Approaches to Software Quality in conjunction with 23rd Asia Pacific Software Engineering Conference (APSEC 2016), Hamilton, New Zealand, 2016.</li>
+            <li>Abdus Satter and Kazi Sakib. “A Search Log Mining based Query Expansion Technique to Improve Effectiveness in Code Search”, 19th International Conference on Computer and Information Technology (ICCIT) 2016, Dhaka, Bangladesh. [IEEE Explore].</li>
+            <li>Abdus Satter and Nabil Ibtehaz. “A partial string matching approach for named entity recognition in unstructured Bengali data.” International Journal of Modern Education and Computer Science 10.1 (2018): 36.</li>
+            <li>Rahman, Md Masudur, Abdus Satter, and BM Mainul Hossain. “An Empirical Study on Stack Overflow Security Vulnerability in Well-known Open Source Software Systems.” International Journal of Computer Applications 975: 8887.</li>
+            <li>Abdus Satter, and BM Mainul Hossain. “Vulnerabilities Assessment of Emerging Web-based Services in Developing Countries.” International Journal of Information Engineering and Electronic Business (IJIEEB) 8.5 (2016): 1.</li>
+            <li>Abdus Satter, and Nabil Ibtehaz. “A Regression based Sensor Data Prediction Technique to Analyze Data Trustworthiness in Cyber-Physical System.” International Journal of Information Engineering Electronic Business 10.3 (2018).</li>
         </ul>
-    </div> -->
-    <div class="section">
-        <div class="heading">RESEARCH PROFILE</div>
-        <ul>
-            <li>Number of Publications: 19+</li>
-            <li>Citations: 100+</li>
-            <li>h-index: 6</li>
-        </ul>
-    </div>
-    <div class="section">
-        <div class="heading">EXPERIENCES</div>
-        <ul>
-            <li><strong>Industry Experience:</strong> Applied Research Engineer and Machine Learning Expert for Big Data Analysis at Fox AI Limited (July 2017 - August 2018)</li>
-            <li><strong>Internship:</strong> Worked as an intern software developer at Secure Link Services Ltd. (January 2015 - July 2015)</li>
-        </ul>
-    </div>
-    <div class="section">
-        <div class="heading">PROJECTS</div>
-        <ul>
-            <li><strong>Analyzing and Storing Software Data for Quick Data Retrieval:</strong>
-                <ul>
-                    <li><em>Abdus Satter, MG Muntaqeem, Nadia Nahar, and Kazi Sakib.</em> “Retrieving Self-Executable and Functionally Correct Code to Improve Source Code Search.” 24th Asia Pacific Software Engineering Conference (APSEC 2017), Nanjing, China, 2017.</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-    <div class="section">
-        <div class="heading">TECHNICAL SKILLS</div>
-        <ul>
-            <li><strong>Statistical Tools for Data Analysis:</strong> Advanced Microsoft Excel, SPSS, and Libre</li>
-            <li><strong>Big Data Analytical Tools:</strong> Apache Hadoop</li>
-            <li><strong>Database:</strong> MySQL, MSSQL, Oracle 10G Enterprise Edition</li>
-            <li><strong>AI and Machine Learning Tools:</strong> Keras, TensorFlow, Python Anaconda</li>
-        </ul>
-    </div>
-  
-    <div class="section">
-        <div class="heading">ACHIEVEMENTS</div>
-        <ul>
-            <li>5<sup>th</sup> in ACM Student Research Competition at International Conference on the Art, Science, and Engineering of Programming, Brussels, Belgium, 2017</li>
-            <li>IIT Academic Excellence Award 2016</li>
-            <li>Champion in "SUST CSE Carnival Web Application Development 2016"</li>
-        </ul>
-    </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: abdussatter@ucsb.edu</p>
+        <!-- <p>LinkedIn: <a href="your-linkedin-profile" target="_blank">LinkedIn Profile</a></p>
+        <p>Twitter: <a href="your-twitter-profile" target="_blank">@YourHandle</a></p> -->
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Abdus Satter. All rights reserved.</p>
+    </footer>
 </body>
 </html>
