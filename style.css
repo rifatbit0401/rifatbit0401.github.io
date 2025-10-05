@@ -18,3 +18,8 @@ a{
 table, tr, td{
     border: 1px solid black;
 }
+
+img {
+    height: 250px;
+    width: 250px;
+}
